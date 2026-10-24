@@ -12,6 +12,14 @@ CREATE DATABASE IF NOT EXISTS tifosi;
 CREATE USER IF NOT EXISTS 'tifosi'@'localhost'
 IDENTIFIED BY 'A_REMPLACER_PAR_UN_MOT_DE_PASSE_FORT';
 
+
+-- IMPORTANT :
+-- Le mot de passe ci-dessous est une valeur d'exemple.
+-- Il doit être remplacé par un mot de passe fort
+-- avant la première exécution du script.
+-- Ne jamais publier un véritable mot de passe.
+
+
 -- Attribution des droits sur la base tifosi
 
 GRANT ALL PRIVILEGES ON tifosi.*
